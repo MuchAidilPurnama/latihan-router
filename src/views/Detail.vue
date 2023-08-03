@@ -1,7 +1,7 @@
 <template>
     <br><br>
     <center>
-        <div v-if="detail == undefined">ID YANG ANDA CARI TIDAK ADA</div>
+        <div v-if="detail == undefined">Produk Tidak Tersedia</div>
         <div v-else>
         <h1>Detail {{ detail.nama }}</h1>
         <img :src="getImgSrc(detail.img)" alt="Category Image" />

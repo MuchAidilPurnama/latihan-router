@@ -1,4 +1,7 @@
 <template>
+    <br>
+    <div v-if="data.length == 0"> <h1 align="center">Produk {{ categoryName }} Tidak Tersedia</h1></div>
+    <div v-else>
     <h1 align="center">Kategori {{ categoryName }}</h1>
     <div class="flex-container">
         <div v-for="produk in data" :key="produk.id" class="card">
@@ -8,6 +11,7 @@
         </router-link>
     </div>
     </div>
+</div>
   </template>
 <script>
 import { computed } from 'vue';
@@ -68,7 +72,7 @@ export default {
     padding: 2px 16px;
 }
 img{
-    width: 250px;
+    width: 230px;
     height: 220px;
 }
 </style>

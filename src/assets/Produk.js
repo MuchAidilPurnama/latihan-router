@@ -4,7 +4,7 @@ export const produk = {
             "id" : 1,
             "nama" : "GSX R150",
             "harga" : "Rp 46.000.000,00",
-            "id_kategori" : 1,
+            "id_kategori" : 11,
             "img" : "gsx.jpg",
             "des" : "Suzuki GSX-R 150 adalah ikon dan penerus tradisi motor sport performa tinggi yang mengusung kecanggihan teknologi. Suzuki menerapkan prinsip filosofi terbaik ketika mengembangkan GSX-R sejak pertama kali, dan masih dipertahankan setiap Suzuki mengembangkan dan menciptakan model generasi berikutnya."
          
@@ -13,7 +13,7 @@ export const produk = {
             "id" : 2,
             "nama" : "Beat Deluxe",
             "harga" : "Rp 22.000.000,00",
-            "id_kategori" : 1,
+            "id_kategori" : 11,
             "img" : "beat.jpg",
             "des" : "Honda Beat Deluxe tersedia dengan harga Rp 18,57 Juta di Indonesia. Tersedia dalam 10 pilihan warna di Indonesia. Beat Deluxe digerakkan oleh mesin 110 cc dengan transmisi Variable Kecepatan. Honda Beat Deluxe memiliki tinggi jok 740 mm dengan bobot 90 kg. Rem depan menggunakan Disc, sedangkan di belakang Drum. Lebih dari 1063 pengguna telah memberikan penilaian untuk Beat Deluxe berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Kompetitor terdekat Beat Deluxe adalah Beat Street CBS, Vario 125 CBS, Scoopy Sporty dan Genio CBS."
         },
@@ -21,7 +21,7 @@ export const produk = {
             "id" : 3,
             "nama" : "Motor Supra",
             "harga" : "Rp 23.000.000,00",
-            "id_kategori" : 1,
+            "id_kategori" : 11,
             "img" : "supra.webp",
             "des" : "Rajanya motor bebek- Kini tampil lebih stylish dengan performa baru lebih irit dan bertenaga- Desain baru lebih sporty yang dipadu dengan fitur-fitur canggih berkelas- 4-Langkah, SOHC, Silinder Tunggal, 124,89 cc"
         },

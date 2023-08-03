@@ -8,7 +8,8 @@ import Detail from "@/views/Detail.vue";
 import Produk from '@/views/Produk.vue';
 import Kategori from '@/views/Kategori.vue';
 import KategoriProduk from '@/views/KategoriProduk.vue';
-import NotFound from '@/views/NotFound.vue'
+import NotFound from '@/views/NotFound.vue';
+import Login from '@/views/Login.vue';
 
 const routes = [ 
   {
@@ -30,6 +31,14 @@ const routes = [
     path: "/produk",
     name: "Produk",
     component: Produk,
+    beforeEnter: (to, from, next) => {
+      const loggedInUser = true;
+      if (loggedInUser) {
+        next();
+      } else {
+        next("/login")
+      }
+    }
   },
    {
     path: "/Detail/:id_produk",
@@ -49,6 +58,12 @@ const routes = [
     component: KategoriProduk,
     props: true,
   },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login,
+    props: true,
+    },
   {
     path: "/:pathMatch(.*)*",
     name: "NotFound",
