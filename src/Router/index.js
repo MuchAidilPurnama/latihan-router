@@ -10,6 +10,8 @@ import Kategori from '@/views/Kategori.vue';
 import KategoriProduk from '@/views/KategoriProduk.vue';
 import NotFound from '@/views/NotFound.vue';
 import Login from '@/views/Login.vue';
+import Counter from '@/views/Counter.vue';
+import Todo from '@/views/Todo.vue'
 
 const routes = [ 
   {
@@ -68,6 +70,16 @@ const routes = [
     path: "/:pathMatch(.*)*",
     name: "NotFound",
     component: NotFound
+  },
+  {
+    path: '/counter',
+    name: 'Counter',
+    component: Counter
+  },
+  {
+    path: '/todo',
+    name: 'Todo',
+    component: Todo
   }
 ];
 
